@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DustFreeHub - Home</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="home" style="background-color: #333;">
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div class="nav-logo">
+                <a a href="#home" class="scroll-link">
+                    <img src="images/dustfreehub-logo.png" alt="DustFreeHub Logo">
+                </a>
+            </div>
+            <ul class="nav-items">
+                <li><a href="#home" class="scroll-link">Home</a></li>
+                <li><a href="#about" class="scroll-link">About</a></li>
+                <li><a href="#contact" class="scroll-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Find Reliable Cleaning Services</h1>
+            <p>Your trusted marketplace for connecting with professional cleaning service providers.</p>
+            <a href="#featured-providers" class="cta-button">Explore Featured Providers</a>
+            <a href="#providers-near-me" class="cta-button">Providers Near me</a>
+        </div>
+    </section>
+
+    <!-- Featured Providers Section -->
+    <section id="featured-providers">
+        <h2 style="color: white;">Featured Providers</h2>
+        <div class="provider-grid">
+            <div class="provider-item">
+                <img src="images/provider1.jpg" alt="Provider 1">
+                <h3>Anytime Cleaners</h3>
+                <p>Highly rated cleaning services for homes and offices.</p>
+                <p class="rating">Rating: ★★★★★</p>
+                <a href="providers.html" class="view-profile-btn">View Profile</a>
+            </div>
+            <div class="provider-item">
+                <img src="images/provider2.jpg" alt="Provider 2">
+                <h3>GetKlean</h3>
+                <p>Expert cleaners for all your residential and commercial needs.</p>
+                <p class="rating">Rating: ★★★★★</p>
+                <a href="providers.html" class="view-profile-btn">View Profile</a>
+            </div>
+            <div class="provider-item">
+                <img src="images/provider3.png" alt="Provider 3">
+                <h3>OC Cleaning Services</h3>
+                <p>Exceptional cleaning services for every type of property.</p>
+                <p class="rating">Rating: ★★★★★</p>
+                <a href="providers.html" class="view-profile-btn">View Profile</a>
+            </div>
+            <div class="provider-item">
+                <img src="images/provider4.jpg" alt="Provider 4">
+                <h3>Taga Linis Ko</h3>
+                <p>Top-notch cleaning solutions with great customer service.</p>
+                <p class="rating">Rating: ★★★★★</p>
+                <a href="providers.html" class="view-profile-btn">View Profile</a>
+            </div>
+        </div>
+    </section>
+
+     <!-- Providers Near Me Section -->
+     <section id="providers-near-me" class="dark-section">
+        <h2 style="color: white;">Providers Near Me</h2>
+        <!-- Google Maps Embed -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61642.63432162594!2d120.62007225382132!3d15.06665406394445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396f79f47a8aadb%3A0x2c4be1dddb81922a!2sSan%20Fernando%2C%20Pampanga!5e0!3m2!1sen!2sph!4v1726659291574!5m2!1sen!2sph" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    
+
+    <!-- About Section -->
+    <section id="about" style="background-color: #333;">
+        <h2 style="color: white;">About Us</h2>
+    <div class="about-content">
+        <div class="image-content">
+            <img src="images/mission.jpg" alt="Mission Image">
+        </div>
+        <div class="text-content">
+            <div class="text-section" id="our-mission">
+                <h3 style="color: white;">Our Mission</h3>
+                <p style="color: white;">We aim to connect businesses and individuals with the best cleaning service providers in the region.</p>
+            </div>
+            <div class="text-section" id="our-vision">
+                <h3 style="color: white;">Our Vision</h3>
+                <p style="color: white;">Our vision is to make finding reliable, top-quality cleaning services as easy and stress-free as possible.</p>
+            </div>
+            <div class="text-section" id="why-choose-us">
+                <h3 style="color: white;">Why Choose Us?</h3>
+                <p style="color: white;">We handpick the most trusted and highly rated cleaning professionals for your convenience.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+<section id="contact" style="background-color: #333;">
+    <h2 style="color: white;">Contact Us</h2>
+    <div class="contact-content">
+        <div class="text-content">
+            <div class="text-section" id="contact-email">
+                <h3 style="color: white;">Email Us</h3>
+                <p style="color: white;">info@dustfreehub.com</p>
+            </div>
+            <div class="text-section" id="contact-phone">
+                <h3 style="color: white;">Call Us</h3>
+                <p style="color: white;">+63 912 345 6789</p>
+            </div>
+            <div class="text-section" id="contact-address">
+                <h3 style="color: white;">Visit Us</h3>
+                <p style="color: white;">San Fernando, Pampanga, Philippines</p>
+            </div>
+        </div>
+        <div class="image-content">
+            <img src="images/contact.jpg" alt="Contact Image">
+        </div>
+    </div>
+</section>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 DustFreeHub. All rights reserved.</p>
+    </footer>
+</body>
+</html>

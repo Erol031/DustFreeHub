@@ -1,0 +1,234 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: inherit; /* Keep the original background */
+    position: fixed; /* Stick to the top */
+    top: 0; /* Align to the top of the viewport */
+    width: 100%; /* Ensures full width */
+    z-index: 1000; /* Keeps it above other content */
+    height: 60px;
+    box-sizing: border-box; /* Ensure the padding doesn't affect width */
+}
+
+.nav-logo img {
+    height: 50px; /* Adjust as needed */
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items li {
+    margin-left: 20px;
+}
+
+.nav-items li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    background-image: url('../images/hero-image.jpg'); /* Update the path as needed */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 80vh; /* Set height for the hero section */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: saturate(0.7); /* Reduce saturation */
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.cta-button {
+    background-color: #f57c00;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#featured-providers {
+    background-color: #333;
+    padding: 40px 20px;
+}
+
+.provider-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.provider-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.provider-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.rating {
+    font-size: 16px;
+    color: #f57c00; /* Color for star ratings */
+}
+
+#testimonials .testimonial-item {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.view-profile-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FE632A; /* Orange button */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.view-profile-btn:hover {
+    background-color: #FF8C00; /* Dark orange on hover */
+}
+
+.cta-button {
+    padding: 12px 25px;
+    background-color: #FE632A; /* Orange button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #FF8C00; /* Dark orange on hover */
+}
+.dark-section {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+   
+}
+
+.dark-section h2 {
+    color: #fff;
+}
+
+
+.dark-section iframe {
+    border: 2px solid #444;
+}
+
+/* Style for About section */
+#about {
+    padding: 50px 20px;
+    background-color: #f4f4f4; /* Light background for contrast */
+}
+
+.about-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.image-content {
+    flex: 1;
+    padding-right: 200px; /* Space between image and text */
+}
+
+.image-content img {
+    max-width: 125%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+}
+
+.text-content {
+    flex: 2;
+}
+
+.text-section {
+    margin-bottom: 80px;
+}
+
+.text-section h3 {
+    margin-top: 0;
+}
+/* Style for Contact section */
+#contact {
+    padding: 50px 20px;
+    background-color: #f4f4f4; /* Light background */
+}
+
+.contact-content {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse; /* This will place the image on the right side */
+}
+
+.image-content {
+    flex: 1;
+    padding-left: 20px; /* Space between image and text */
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.text-content {
+    flex: 2;
+}
+
+.text-section {
+    margin-bottom: 20px;
+}
